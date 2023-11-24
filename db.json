@@ -1,0 +1,104 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "21ewqe",
+      "body": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 6,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 7,
+      "title": "wqe",
+      "body": "typicode"
+    },
+    {
+      "id": 8,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 9,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 88,
+      "title": "wqe",
+      "body": "typicode"
+    },
+    {
+      "id": 77,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 34,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "title": "dsa",
+      "body": "aedwe",
+      "id": 89
+    },
+    {
+      "title": "213wq",
+      "body": "213wq",
+      "id": 90
+    },
+    {
+      "title": "213wqe",
+      "body": "213wqe",
+      "id": 91
+    },
+    {
+      "title": "asSSSSSSSSSSSSSSSS",
+      "body": "asSSSSSSSSSSSSSSSS",
+      "id": 92
+    },
+    {
+      "title": "XXXXXXXXXXXXXXXXX",
+      "body": "XXXXXXXXXXXXXXXXX",
+      "id": 93
+    },
+    {
+      "title": "weweweeewewewe",
+      "body": "weweweeewewewe",
+      "id": 95
+    },
+    {
+      "title": "wewewewe222",
+      "body": "wewewewe222",
+      "id": 96
+    },
+    {
+      "title": "X",
+      "body": "X",
+      "id": 97
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

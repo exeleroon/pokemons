@@ -1,0 +1,109 @@
+@import "components/_variables.scss";
+
+.error {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0.375rem;
+}
+
+.loader {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0.375rem;
+}
+
+.pokemon {
+  &__container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0.375rem;
+
+    .list-group {
+      max-height: 576px;
+      overflow-y: auto;
+    }
+
+    form {
+      margin-right: 1px;
+    }
+
+    .form-control {
+      width: 224px;
+      border-radius: 0;
+    }
+
+    .form-control.is-invalid, .was-validated .form-control:invalid {
+      padding-right: 0;
+      border-radius: 0;
+    }
+
+    .input-group-text {
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .input-group .btn {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      font-weight: 500;
+      font-size: 14px;
+      border-color: #ced4da;
+    }
+  }
+
+  .list-group-item {
+    height: 48px;
+    min-height: 48px;
+  }
+
+  .page-item {
+    cursor: pointer;
+  }
+}
+
+.poke-detailed {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0.375rem;
+
+  &__lists-block {
+    gap: 10px;
+  }
+  &__list {
+    width: 100%;
+
+    .type-li {
+      height: 49px;
+    }
+
+    .type-btn {
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
+  }
+
+  .carousel {
+    max-width: 425px;
+    min-width: 400px;
+  }
+
+  .carousel-control-prev {
+    background-color: #8080808a;
+  }
+  .carousel-control-next {
+    background-color: #8080808a;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 28rem;
+  }
+
+  .list-group {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}
