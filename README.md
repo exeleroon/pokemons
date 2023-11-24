@@ -1,31 +1,31 @@
 # General
 
-Project holds site pokemons
+Project show pokemons and their skills
 
 # Links
 
 ## Dev
 
-* http://dev.abcbookings.com.au/ - site
-* http://dev.abcbookings.com.au:33380 - back-end
+* https://pokemons-orpin.vercel.app/ - site
+* https://pokeapi.co/api/v2/ - back-end
 
-## Prod
-
-* https://abcbookings.com.au/ - site
-* https://abcbookings.com.au:33380 - back-end
 
 # Dependency
 
+* typescript
+* react-redux
+* eslint
+* sass / scss
+* bootstrap
 * node 12.13.1
-* react 16
-* back-end is here https://gitlab.abcblinds.com.au/abc/booking-system-backend
+* react 18.2.0
+* back-end is here https://pokeapi.co/
 
 # Configuration
+no config - test version
 
-For local server - see `/public/config.json` to configure where is back-end
+# Build
+npm run build 
 
-By default it is point to dev server
-
-# Run
-
-How build and execute see [react instructions](doc/react.md)
+# to start local development
+npm start
